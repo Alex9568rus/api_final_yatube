@@ -1,5 +1,5 @@
 # Api_YaTube
-API для социальной сети YaTube.
+API для социальной сети [YaTube](https://github.com/Alex9568rus/api_final_yatube.git)
 
 В YaTube можно:
 * опубликовывать/редактировать/удалять посты
@@ -24,16 +24,20 @@ ___
 
 1. Клонируйте репозитроий с проектом:
 
-    git clone [https://github.com/Alex9568rus/api_final_yatube.git](https://github.com/Alex9568rus/api_final_yatube.git)
+    ```git clone git@github.com:Alex9568rus/api_final_yatube.git```
 2. Перейдите в созданную директорию, установите виртуальное окружение, активируйте его и установите необходимые зависимости:
     1. `cd api_final_yatube`
     2. - `python3 -m venv venv`
        - `source venv/bin/activate`
        - `python3 -m pip install --upgrade pip`
        - `pip install -r requirements.txt`
-3. Выполните миграции:
-    `python3 manage.py migrate`
-4. запустите проект:
+3. Установите дополнительные компоненты:
+    - `pip install django-filter`
+    - `pip install djoser djangorestframework-simplejwt==4.7.2`
+4. Выполните миграции:
+    - `cd yatube_api`
+    - `python3 manage.py migrate`
+5. запустите проект:
     `python3 manage.py runserver`
 ____
 
