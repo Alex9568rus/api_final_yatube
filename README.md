@@ -1,5 +1,5 @@
 # Api_YaTube
-API для социальной сети [YaTube](https://github.com/Alex9568rus/api_final_yatube.git)
+API для социальной сети [YaTube](https://github.com/Alex9568rus/hw05_final)
 
 В YaTube можно:
 * опубликовывать/редактировать/удалять посты
