@@ -31,13 +31,10 @@ ___
        - `source venv/bin/activate`
        - `python3 -m pip install --upgrade pip`
        - `pip install -r requirements.txt`
-3. Установите дополнительные компоненты:
-    - `pip install django-filter`
-    - `pip install djoser djangorestframework-simplejwt==4.7.2`
-4. Выполните миграции:
+3. Выполните миграции:
     - `cd yatube_api`
     - `python3 manage.py migrate`
-5. запустите проект:
+4. запустите проект:
 
     `python3 manage.py runserver`
     
